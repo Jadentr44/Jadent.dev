@@ -1,0 +1,46 @@
+body, html {
+ 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+/* hero */
+
+#hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw
+}
+
+#hero button{
+  /* border: solid 1px #3F3F46; */
+  border-radius: 5px;
+  padding: .75rem 1.25rem;
+}
+.custom-shape-divider-bottom-1684085752 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1684085752 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 138px;
+}
+
+.custom-shape-divider-bottom-1684085752 .shape-fill {
+  fill: white;
+}

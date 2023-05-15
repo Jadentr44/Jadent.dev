@@ -1,0 +1,7 @@
+nav li a{
+  display: block;
+  padding: .5rem .75rem;
+}
+nav li a:hover{
+  color: #ff4444;
+}
